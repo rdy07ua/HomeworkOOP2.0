@@ -3,8 +3,8 @@ public class Main {
 
 
         Car car = new Car("Car");
-        PassangerCar skoda = new PassangerCar();
-        Truck Scania = new Truck();
+        Car skoda = new PassangerCar();
+        Car Scania = new Truck();
 
 
         System.out.println("Type:" + car.getType());
